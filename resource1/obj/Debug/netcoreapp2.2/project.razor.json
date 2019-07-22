@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Solutions\\IdS4POC\\resource1\\resource1.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "resource1",
+  "Documents": [],
+  "SerializationFormat": "0.1"
+}
