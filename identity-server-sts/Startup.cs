@@ -39,7 +39,8 @@ namespace identity_server_sts
                         new IdentityResources.Email()
                     })
                     .AddInMemoryApiResources(new[] {
-                        new ApiResource("resource1", "Resource 1")
+                        new ApiResource("resource1", "Resource 1"),
+                        new ApiResource("resource2", "Resource 2")
                     })
                     .AddInMemoryClients(new[] {
                         new Client
@@ -69,14 +70,14 @@ namespace identity_server_sts
                                 new Secret("secret".Sha256())
                             },
                             AllowAccessTokensViaBrowser = false,
-                            AllowedCorsOrigins = { "http://localhost:4200" }, // My Client is a Angular application served on port 4200
                             AllowRememberConsent = true,
                             AllowedScopes =
                             {
                                 IdentityServerConstants.StandardScopes.OpenId,
                                 IdentityServerConstants.StandardScopes.Profile,
                                 IdentityServerConstants.StandardScopes.Email,
-                                "resource1"
+                                "resource1",
+                                "resource2"
                             }
                         }
                     })

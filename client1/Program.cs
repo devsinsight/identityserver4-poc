@@ -26,7 +26,7 @@ namespace client1
                 Address = disco.TokenEndpoint,
                 ClientId = "c2c",
                 ClientSecret = "secret",
-                Scope = "resource1"
+                Scope = "resource2"
             });
             
             if (tokenResponse.IsError)
@@ -42,7 +42,8 @@ namespace client1
             var apiClient = new HttpClient();
             apiClient.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await apiClient.GetAsync("http://localhost:5003/Identity");
+            //var response = await apiClient.GetAsync("http://localhost:5003/Identity");
+            var response = await apiClient.GetAsync("http://localhost:8080/Identity"); //java endpoint
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
@@ -50,7 +51,8 @@ namespace client1
             else
             {
                 var content = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(JArray.Parse(content));
+                Console.WriteLine(content); //java
+                //Console.WriteLine(JArray.Parse(content));
             }
         }
     }

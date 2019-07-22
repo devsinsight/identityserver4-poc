@@ -29,6 +29,26 @@
             "type": "coreclr",
             "request": "attach",
             "processId": "${command:pickProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<resource2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "resource2.resource2.DemoApplication",
+            "projectName": "resource2",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<resource2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "resource2.resource2.MainApplication",
+            "projectName": "resource2",
+            "args": ""
         }
     ]
 }
