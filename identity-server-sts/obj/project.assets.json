@@ -12185,11 +12185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Solutions\\PoC\\identity-server-sts\\identity-server-sts.csproj",
+      "projectUniqueName": "C:\\Solutions\\identityserver4-poc\\identity-server-sts\\identity-server-sts.csproj",
       "projectName": "identity-server-sts",
-      "projectPath": "C:\\Solutions\\PoC\\identity-server-sts\\identity-server-sts.csproj",
+      "projectPath": "C:\\Solutions\\identityserver4-poc\\identity-server-sts\\identity-server-sts.csproj",
       "packagesPath": "C:\\Users\\shoutmetal\\.nuget\\packages\\",
-      "outputPath": "C:\\Solutions\\PoC\\identity-server-sts\\obj\\",
+      "outputPath": "C:\\Solutions\\identityserver4-poc\\identity-server-sts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

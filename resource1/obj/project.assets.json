@@ -12086,11 +12086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Solutions\\PoC\\angular.oidc\\resource1\\resource1.csproj",
+      "projectUniqueName": "C:\\Solutions\\identityserver4-poc\\resource1\\resource1.csproj",
       "projectName": "resource1",
-      "projectPath": "C:\\Solutions\\PoC\\angular.oidc\\resource1\\resource1.csproj",
+      "projectPath": "C:\\Solutions\\identityserver4-poc\\resource1\\resource1.csproj",
       "packagesPath": "C:\\Users\\shoutmetal\\.nuget\\packages\\",
-      "outputPath": "C:\\Solutions\\PoC\\angular.oidc\\resource1\\obj\\",
+      "outputPath": "C:\\Solutions\\identityserver4-poc\\resource1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
