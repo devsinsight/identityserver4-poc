@@ -20,3 +20,14 @@ C:\Solutions\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.Assembl
 C:\Solutions\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.AssemblyInfo.cs
 C:\Solutions\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.dll
 C:\Solutions\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.pdb
+C:\Projects\Demos\identityserver4-poc\client1\bin\Debug\netcoreapp2.2\client1.deps.json
+C:\Projects\Demos\identityserver4-poc\client1\bin\Debug\netcoreapp2.2\client1.runtimeconfig.json
+C:\Projects\Demos\identityserver4-poc\client1\bin\Debug\netcoreapp2.2\client1.runtimeconfig.dev.json
+C:\Projects\Demos\identityserver4-poc\client1\bin\Debug\netcoreapp2.2\client1.dll
+C:\Projects\Demos\identityserver4-poc\client1\bin\Debug\netcoreapp2.2\client1.pdb
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.csprojAssemblyReference.cache
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.csproj.CoreCompileInputs.cache
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.AssemblyInfoInputs.cache
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.AssemblyInfo.cs
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.dll
+C:\Projects\Demos\identityserver4-poc\client1\obj\Debug\netcoreapp2.2\client1.pdb
