@@ -1,6 +1,12 @@
 package resource2.resource2.controller;
 
+import java.util.Collection;
+
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,9 +16,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class IdentityController {
 
     @GetMapping("/Identity")
-    public String greeting() {
+    public Object greeting() {
 
-        return "Welcome to the jungle";
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if (!(authentication instanceof AnonymousAuthenticationToken)) {
+
+            return authentication.getDetails();
+        }
+
+        return null;
     }
 
 }

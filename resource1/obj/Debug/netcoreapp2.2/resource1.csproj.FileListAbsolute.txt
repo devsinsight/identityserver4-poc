@@ -31,7 +31,6 @@ C:\Projects\Demos\identityserver4-poc\resource1\bin\Debug\netcoreapp2.2\resource
 C:\Projects\Demos\identityserver4-poc\resource1\bin\Debug\netcoreapp2.2\resource1.runtimeconfig.dev.json
 C:\Projects\Demos\identityserver4-poc\resource1\bin\Debug\netcoreapp2.2\resource1.dll
 C:\Projects\Demos\identityserver4-poc\resource1\bin\Debug\netcoreapp2.2\resource1.pdb
-C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.csprojAssemblyReference.cache
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.csproj.CoreCompileInputs.cache
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.RazorAssemblyInfo.cache
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.RazorAssemblyInfo.cs
@@ -40,3 +39,4 @@ C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.RazorTargetAssemblyInfo.cache
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.dll
 C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.pdb
+C:\Projects\Demos\identityserver4-poc\resource1\obj\Debug\netcoreapp2.2\resource1.csprojAssemblyReference.cache

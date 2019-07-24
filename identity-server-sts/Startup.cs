@@ -49,14 +49,20 @@ namespace identity_server_sts
                             ClientName = "My Client",
                             AllowedGrantTypes = GrantTypes.Implicit,
                             AllowAccessTokensViaBrowser = true,
-                            AllowedCorsOrigins = { "http://localhost:4200" }, // My Client is a Angular application served on port 4200
                             AllowRememberConsent = true,
                             AllowedScopes =
                             {
                                 IdentityServerConstants.StandardScopes.OpenId,
                                 IdentityServerConstants.StandardScopes.Profile,
                                 IdentityServerConstants.StandardScopes.Email,
-                                "resource1"
+                                "resource1",
+                                "resource2"
+                            },
+                            AllowedCorsOrigins =
+                            {
+                                "http://localhost:4200",//angular
+                                "http://localhost:5003",//resource1
+                                "http://localhost:8080"//resource2
                             },
                             RedirectUris = { "http://localhost:4200/signin-callback" },
                             PostLogoutRedirectUris = { "http://localhost:4200/signout-callback" }

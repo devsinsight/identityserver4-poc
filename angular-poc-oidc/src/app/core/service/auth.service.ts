@@ -80,7 +80,7 @@ export class AuthService {
         post_logout_redirect_uri: 'http://localhost:4200/signout-callback',
         silent_redirect_uri: 'http://localhost:4200/silent-renew-callback',    
         response_type: 'id_token token',
-        scope: 'openid profile email resource1',
+        scope: 'openid profile email resource1 resource2',
         filterProtocolClaims: true, 
         loadUserInfo: true,
         automaticSilentRenew: true,
