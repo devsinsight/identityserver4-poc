@@ -11,7 +11,7 @@ export class MainComponent implements OnInit {
     ngOnInit(): void { }
 
     testNetCore() {
-        console.log("resource1 test");
+        console.log("resource1 .NET Core 2.2 Test");
         this.mainService.getIdentityFromNetCore().subscribe( response => {
 
             console.log(response);
@@ -19,7 +19,7 @@ export class MainComponent implements OnInit {
     }
 
     testJava() {
-        console.log("resource2 test");
+        console.log("resource2 Java Spring Boot Test");
         this.mainService.getIdentityFromJava().subscribe( response => {
 
             console.log(response);
