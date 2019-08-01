@@ -46,6 +46,6 @@ This example is build against .NET Core SDK 2.2 and the latest version of Java S
      - npm install
  - Under the client2 folder, execute: 
      - ng serve -o
- - client1 is a console app which interacts with bith .NET and Java using Client Credential grant type, to test, execute: 
+ - client1 is a console app which interacts with bOth .NET and Java resources using Client Credential grant type, to test, execute: 
      - dotnet run --project client1
  
