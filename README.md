@@ -49,3 +49,6 @@ This example is build against .NET Core SDK 2.2 and the latest version of Java S
  - client1 is a console app which interacts with bOth .NET and Java resources using Client Credential grant type, to test, execute: 
      - dotnet run --project client1
  
+## Big picture
+
+![alt text](https://raw.githubusercontent.com/devsinsight/identityserver4-poc/master/BigPicture.png)
