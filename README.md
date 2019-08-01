@@ -25,4 +25,5 @@ Sequence Diagram for Client Credentian flow:
 ![alt text](https://raw.githubusercontent.com/devsinsight/identityserver4-poc/master/CreditCredentialFlow.png)
 
 ## Implicit flow
+Sequence Diagram for Implicit flow:
 ![alt text](https://raw.githubusercontent.com/devsinsight/identityserver4-poc/master/ImplicitFlow.png)
