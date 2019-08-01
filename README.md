@@ -3,7 +3,7 @@
 The following examples shows how identity server interact with different technologies through different grant types:
  - Client Credencial flow
  - Implicit flow
- - .NET Core and Java Spring Boot services as resourcers
+ - .NET Core and Java Spring Boot services as resources
 
 ## Folders
 
